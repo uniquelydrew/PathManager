@@ -1,0 +1,30 @@
+{
+  "name": "MyWindow",
+  "type": "window",
+  "attributes": [
+    {"type": "id",
+    "value": "My_window"}
+  ],
+  "children": [
+    {
+      "name": "defaultDoc",
+      "type": "document",
+      "attributes": [
+        {
+          "type": "id",
+          "value": "defultDocument"
+        }
+      ],
+      "children": [{
+        "name": "defaultform",
+        "type": "form",
+        "attributes": [
+          {
+            "type": "id",
+            "value": "defultForm"
+          }
+        ]
+      }]
+    }
+  ]
+}
